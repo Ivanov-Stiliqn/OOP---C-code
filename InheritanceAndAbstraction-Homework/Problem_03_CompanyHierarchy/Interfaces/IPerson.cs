@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Problem_03_CompanyHierarchy.Interfaces
+{
+    public interface IPerson
+    {
+         string FirstName { get; set; }
+
+         string LastName { get; set; }
+
+         string ID { get; set; }
+
+         string ToString();
+    }
+}
